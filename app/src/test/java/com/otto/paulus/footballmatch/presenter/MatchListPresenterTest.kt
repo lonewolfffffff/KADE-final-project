@@ -1,7 +1,6 @@
 package com.otto.paulus.footballmatch.presenter
 
 import com.google.gson.Gson
-import com.otto.paulus.footballmatch.TestContextProvider
 import com.otto.paulus.footballmatch.api.ApiRepository
 import com.otto.paulus.footballmatch.api.TheSportDBApi
 import com.otto.paulus.footballmatch.model.Event
@@ -38,7 +37,7 @@ class MatchListPresenterTest {
     @Before
     fun setUp() {
         MockitoAnnotations.initMocks(this)
-        presenter = MatchListPresenter(view, apiRepository, gson, TestContextProvider())
+        presenter = MatchListPresenter(view, apiRepository, gson)
     }
 
     @Test

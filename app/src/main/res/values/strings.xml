@@ -7,6 +7,7 @@
     <string name="tab_last_match">Last</string>
     <string name="tab_next_match">Next</string>
 
+    <string name="menu_search">Search</string>
     <string name="menu_matches">Matches</string>
     <string name="menu_teams">Teams</string>
     <string name="menu_favorites">Favorites</string>
